@@ -485,7 +485,8 @@ img {
   margin-right: 80px;
 }
 
-.footer-social .description-footer .footer-subscribe .description-footer {
+.footer-social .description-footer,
+.footer-subscribe .description-footer {
   margin-bottom: 16px;
   font-weight: 500;
   color: #ffffff;
@@ -575,6 +576,7 @@ button {
   justify-content: center;
   flex-direction: row;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer
 }
 
 .button-footer:hover,
@@ -728,6 +730,7 @@ button {
   color: #ffffff;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer
 }
 
 .button-modal:hover,
@@ -783,6 +786,7 @@ button {
   background-color: transparent;
   outline: transparent;
   resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .area-input::placeholder {
@@ -803,7 +807,7 @@ button {
 
 .visually-hidden:checked+label>.check-span {
   background-color: #404bbf;
-  fill: #fff;
+  fill: #F4F4FD;
   border: none;
 }
 
